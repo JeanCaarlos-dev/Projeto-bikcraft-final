@@ -1,0 +1,10 @@
+header {
+  background: #000000;
+}
+
+header .header-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
