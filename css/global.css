@@ -1,4 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --cor-texto: #fff;
+  --cor-subtexto: #b2b2b2;
+  --cor-destaque: #ffbb00;
+}
+
 * {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.cor-destaque {
+  color: var(--cor-destaque);
 }
