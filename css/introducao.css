@@ -1,0 +1,33 @@
+.introducao {
+  background-color: #000;
+}
+
+.introducao-container img {
+  display: block;
+  width: 640px;
+  height: 800px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: 75%;
+}
+
+.introducao-container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.introducao-texto h1 {
+  color: var(--cor-texto);
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+.introducao-texto p {
+  color: var(--cor-subtexto);
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
