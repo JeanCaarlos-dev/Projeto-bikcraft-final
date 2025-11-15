@@ -1,32 +1,42 @@
-.introducao {
+.introducao-container {
   background-color: #000;
 }
 
-.introducao-container img {
-  display: block;
-  width: 640px;
-  height: 800px;
-  border-radius: 4px;
-  object-fit: cover;
-  object-position: 75%;
+.conteudo-imagem {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-.introducao-container {
-  max-width: 1200px;
+.imagem-vazada {
+  display: block;
+  width: 100%;
+  height: 100%;
 
-  margin: 0 auto;
+  object-fit: cover;
+  object-position: 80% center;
+
+  width: 120%;
+  margin-left: -20%;
+}
+
+.introducao-conteudo {
+  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-.introducao-texto h1 {
+.conteudo-texto h1 {
   color: var(--cor-texto);
   font-size: 4rem;
   line-height: 4.5rem;
+  font-weight: 700;
 }
 
-.introducao-texto p {
+.conteudo-texto p {
   color: var(--cor-subtexto);
   font-size: 1.5rem;
   line-height: 2.25rem;
