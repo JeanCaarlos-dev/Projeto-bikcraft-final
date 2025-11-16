@@ -6,6 +6,11 @@ body {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 ul {
   margin: 0px;
   padding: 0px;
